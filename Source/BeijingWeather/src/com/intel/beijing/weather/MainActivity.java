@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 		//prepare to get the data from url
 		EditText textCity = (EditText) findViewById(R.id.textCity);
 		String city = textCity.getEditableText().toString();
-		String urlWeather = "http://api.openweathermap.org/data/2.5/forecast?q=" + city + ",en&units=metric";
+		String urlWeather = "http://api.openweathermap.org/data/2.5/weather?q=" + city + ",en&units=metric";
 		
 		//TODO get data from urlWeather using HttpConnection ....
 		String weatherResult = "";

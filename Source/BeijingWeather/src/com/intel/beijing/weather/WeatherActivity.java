@@ -19,22 +19,20 @@ public class WeatherActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		
+		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_weather);
-		
-			//setup proxy because you are in I. network
-		//System.setProperty("http.proxyHost", "prox here");
-		//System.setProperty("http.proxyPort", "port here");
-		
+
 		//prepare to get the data from url
-			String city = "";
+		String city =  getIntent().getStringExtra("city");
+		
 		String urlWeather = "http://api.openweathermap.org/data/2.5/weather?q=" + city + ",en&units=metric";
 		
 		//display the weather response
 		weatherText = (TextView) findViewById(R.id.weatherText);
 		new WeatherUpdater().execute(urlWeather);
 	}
+	
+	
 
 	class WeatherUpdater extends AsyncTask<String, Integer, String> {
 		private ProgressDialog progress;

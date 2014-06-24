@@ -12,6 +12,10 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		//setup proxy because you are in I. network
+		//System.setProperty("http.proxyHost", "prox here");
+		//System.setProperty("http.proxyPort", "port here");
 	}
 	
 	public void weatherCall (View v)

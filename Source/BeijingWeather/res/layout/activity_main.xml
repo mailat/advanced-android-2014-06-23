@@ -4,11 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
     <EditText
         android:id="@+id/textCity"
         android:layout_width="match_parent"
@@ -38,11 +33,5 @@
             android:onClick="forecastCall" />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/weatherText"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:text="TextView" />
 
 </LinearLayout>

@@ -17,18 +17,32 @@
         android:text="Beijing"
         android:ems="10" />
 
-    <Button
-        android:id="@+id/buttonSearch"
-        style="?android:attr/buttonStyleSmall"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Weather details"
-        android:onClick="getWeatherData" />
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/weatherCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:onClick="weatherCall" />
+
+        <Button
+            android:id="@+id/forecastCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forecast"
+            android:onClick="forecastCall" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/weatherText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="56dp"
         android:text="TextView" />
 
 </LinearLayout>

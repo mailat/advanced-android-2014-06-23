@@ -34,13 +34,18 @@ Java Tutorial http://docs.oracle.com/javase/tutorial/
 
 == Homework and info day 02
 
-More info about low level debugging from Internals course:
+Informations:
 
 - more about Debugging Native Code with GDB in internals page 232
 - step by step debugging NDK - http://mhandroid.wordpress.com/2011/01/23/using-eclipse-for-android-cc-debugging/ 
 - Check Larry article - http://www.eweek.com/c/a/Linux-and-Open-Source/How-to-Set-Up-Android-Platform-Development-and-Debugging/ 
 - Check alternatives: tombstone, ndk-stack si addr2line - http://bytesthink.com/blog/?p=133
 
-== Homework and info day 02
+Homework:
+
+- create a ForecatActivity.java extending ListActivity and parsing the forecast weather for the next 10 days. User as reference the sample project "06_Listview"
+- on each row display the maximum, minimum temperature and the day
+
+== Homework and info day 03
 
 

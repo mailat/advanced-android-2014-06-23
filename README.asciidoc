@@ -1,0 +1,46 @@
+= Android Advanced Training
+
+24 June 2014
+
+*Marius Mailat*, +<marius.mailat@gmail.com>+
+http://thewnewcircle.com[The New Circle, Inc.]
+
+== Obtaining Course Materials
+
+You can either clone this Git repository:
+
+  git clone git@github.com:mailat/advanced-android-2014-06-23.git
+
+or
+
+   download a Zip archive by clicking the link at the top of the page or using the link:
+  
+	https://github.com/mailat/advanced-android-2014-06-23/archive/master.zip
+
+== Useful Links
+
+Git book: http://git-scm.com/book
+
+Marakana Java Fundamentals Tutorial: http://marakana.com/bookshelf/java_fundamentals_tutorial/index.html
+
+Introduction to Eclipse - Driving Java Productivity: http://mrkn.co/s/video_introduction_to_eclipse_driving_java_productivity,595/index.html
+
+Java Tutorial http://docs.oracle.com/javase/tutorial/
+
+== Homework and info day 01
+
+- Download the feed using a Thread like system
+- For bonus points: add a Asynctask!
+
+== Homework and info day 02
+
+More info about low level debugging from Internals course:
+
+- more about Debugging Native Code with GDB in internals page 232
+- step by step debugging NDK - http://mhandroid.wordpress.com/2011/01/23/using-eclipse-for-android-cc-debugging/ 
+- Check Larry article - http://www.eweek.com/c/a/Linux-and-Open-Source/How-to-Set-Up-Android-Platform-Development-and-Debugging/ 
+- Check alternatives: tombstone, ndk-stack si addr2line - http://bytesthink.com/blog/?p=133
+
+== Homework and info day 02
+
+

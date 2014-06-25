@@ -48,4 +48,8 @@ Homework:
 
 == Homework and info day 03
 
+- create a Service getting every 1 minute the actual weather
+- create an IntentService getting the actual weather
+- create a BroadcastReceiver for detecting the restart of the phone and activate afterwards the IntentService created above
+
 

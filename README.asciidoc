@@ -31,6 +31,7 @@ Java Tutorial http://docs.oracle.com/javase/tutorial/
 
 - Download the feed using a Thread like system
 - For bonus points: add a Asynctask!
+- Check the presentation on secure apps on http://www.slideshare.net/fastlink2/droidcon-eastern-europe-2013-how-secure-is-an-androidapp
 
 == Homework and info day 02
 

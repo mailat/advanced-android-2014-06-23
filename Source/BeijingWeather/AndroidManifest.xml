@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".WeatherActivity"/>
 		<activity android:name=".ForecastActivity"/>
+		<service android:name=".WeatherService"/>
     </application>
 
 </manifest>

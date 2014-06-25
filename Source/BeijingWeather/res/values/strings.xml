@@ -3,6 +3,7 @@
 
     <string name="app_name">BeijingWeather</string>
     <string name="hello_world">Hello world Marius!</string>
-    <string name="action_settings">Settings</string>
-
+    <string name="action_start">Start service</string>
+  	<string name="action_stop">Stop service</string>
+    
 </resources>

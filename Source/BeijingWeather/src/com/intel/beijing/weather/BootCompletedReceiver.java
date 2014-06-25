@@ -9,7 +9,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
 	@Override
 	public void onReceive(Context context, Intent intent) {
-		Log.d("Weathe", "We are in onReceive");
+		Log.d("Weather", "We are in onReceive");
 		context.startService(new Intent(context, WeatherIntentService.class));
 	}
 
